@@ -3,7 +3,7 @@ import { auth } from '../firebase'
 import { PostTask } from '../types'
 
 const instance = axios.create({
-  baseURL: 'http://localhost:3333',
+  baseURL: 'https://ivipcoin-back-end.vercel.app',
 })
 
 const authConfig = async (
